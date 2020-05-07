@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>HiPRC Bootstrap Template</title>
+	<title>Onetel Template - Contact</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -11,6 +11,7 @@
 OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
+
 	<!-- stylesheet css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -33,90 +34,73 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand"><img src="images/logo.pdf" class="img-responsive"  alt="logo"></a>
+			<a href="#" class="navbar-brand"><img src="images/logo.pdf" class="img-responsive" alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.html" class="active">HOME</a></li>
-				<!-- <li><a href="about.html">PEOPLE</a></li>
+				<li><a href="about.html">PEOPLE</a></li>
 				<li><a href="projects.html">PROJECTS</a></li>
-				<li><a href="tools.html">TOOLS</a></li> -->
+				<li><a href="tools.html">TOOLS</a></li>
 				<li><a href="contact.html">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>
 </div>		
 
-<!-- home section -->
-<div id="home">
+<!-- contact header section -->
+<div id="contact-header">
 	<div class="container">
-		<div class="row" >
-			<div class="col-md-5 col-sm-9" style="padding-top: 30px;"></div>
-			<div class="col-md-10 col-sm-9 " style="background-color:rgba(47, 79, 79, 0.6); line-height: 1200px; padding: 20px;">
-
-				<h3 >Welcome to</h3>
-				<h2> High Performance Real-time Computational Lab</h1>
-			</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12"></div>
 		</div>
 	</div>
 </div>
 
-<!-- divider section -->
-<div class="divider">
+<!-- contact section -->
+<div id="contact">
 	<div class="container">
-		<div class="row" style="padding: 20px;">
-			<div class="col-md-6 col-sm-6">
-				<div class="divider-wrapper divider-one" >
-
-					<i class="fa fa-laptop"></i>
-					<h2>High-Performance Computating</h2>
-					<p> High-performance computing is the use of parallel processing for running advanced application programs efficiently, reliably and quickly. </p>
-
-					<a href="index_hpc.html" class="btn btn-default">LEARN MORE</a>
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<h2>Get in touch</h2>
+                <p> If you are interested in this domain and want to pursue research contact us through email. </p>
+			</div>
+			<div class="col-md-8 col-sm-8 mt30">
+				<form action="#" method="post" role="form">
+					<div class="col-md-6 col-sm-6">
+                        <label for="name">NAME</label>
+                        <input name="name" type="text" class="form-control" id="name">
+                      <label for="email">EMAIL</label>
+                        <input name="email" type="email" class="form-control" id="email">
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<label for="message">MESSAGE</label>
+						<textarea name="message" rows="6" class="form-control" id="message"></textarea>
+					</div>
+                    <div class="col-md-6 col-sm-6">
+                    	<button type="submit" name="submit" class="btn btn-default">SEND</button>
+                    </div>
+				</form>
+			</div>
+			<div class="col-md-4 col-sm-4 address">
+				<div>
+					<h3>Email</h3>
+					<p>info@company.com</p>
+				</div>
+				<div>
+					<h3>Phones</h3>
+					<p>010-020-0340 | 090-080-0760</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-6">
-				<div class="divider-wrapper divider-two">
-					<i class="fa fa-mobile"></i>
-					<h2>Real-time System</h2>
-					<p> </p>
+			<div class="col-md-12 col-sm-12 mt20">
+            	<h3>Location</h3>
+				<div class="google_map mt20">
+					<div id="map-canvas"></div>
 				</div>
 			</div>
-		</div>
-
-		<div class="row" style="padding: 20px;">
-
-			<div class="col-md-6 col-sm-6">
-				<div class="divider-wrapper divider-two">
-					<i class="fa fa-mobile"></i>
-					<h2>Automotives</h2>
-					<p> </p>
-				</div>
-			</div>
-
-			<div class="col-md-6 col-sm-6">
-				<div class="divider-wrapper divider-one">
-					<i class="fa fa-mobile"></i>
-					<h2>Smart Grid</h2>
-					<p> </p>
-				</div>
-			</div>
-		</div>
-
-		<div class="row" style="padding: 20px;">
-			<div class="col-md-6 col-sm-6">
-				<div class="divider-wrapper divider-one">
-					<i class="fa fa-mobile"></i>
-					<h2>Wireless System</h2>
-					<p> </p>
-				</div>
-			</div>
-
 		</div>
 	</div>
-</div>
-
-
+</div>		
 
 <!-- footer section -->
 <footer>
@@ -125,10 +109,10 @@ http://www.templatemo.com/tm-468-onetel
 
 			<div class="col-md-3 col-sm-4"  >
 				<h3>Useful Links</h3>
-				<p><a href="#">Courses</a></p>
-				<p><a href="#"></a></p>
-				<p><a href="#"></a></p>
-				<p><a href="#"></a></p>
+				<p><a href="#">GPGPU</a></p>
+				<p><a href="#">CUDA</a></p>
+				<p><a href="#">HP3 Class</a></p>
+				<p><a href="#">HPCA class</a></p>
 			</div>
         
         	<div class="col-md-5 col-sm-4 newsletter">
@@ -146,7 +130,7 @@ http://www.templatemo.com/tm-468-onetel
 				<img src="images/logo.pdf" class="img-responsive" alt="logo">
 				<p>HiPRC or High Performance Real-time Computation Lab is a reserach lab in IIT Kharagpur.
                 
-                </p>
+                Does research on ......</p>
 				<p><i class="fa fa-phone"></i> 000000</p>
 				<p><i class="fa fa-envelope-o"></i> ****@iitkgp.ac.in</p>
               <p><i class="fa fa-globe"></i> www.facebook.com</p>
