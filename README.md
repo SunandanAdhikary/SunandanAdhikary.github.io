@@ -1,3 +1,3 @@
 # SunandanAdhikary.github.io
-## My Lab Website
+## Lab Website
 https://SunandanAdhikary.github.io
