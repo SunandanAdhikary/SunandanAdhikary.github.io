@@ -9,7 +9,7 @@
 
 
 	<!-- header section -->
-	<div class="container text-center">
+	<div class="container text-center rounded_rectangle">
 		<div class="row" style="padding:15px">
 			<!-- <div class="col-md-12 col-sm-12"> -->
 			<div class="hero-unit">
@@ -40,12 +40,13 @@
 				</div>
 				<!-- </div> -->
 			</div>
-			<div class="row" style="padding:15px">
+			<div class="row">
+			<div class="container topic-desc">
 				<div style="width:100% " data-toggle="collapse" data-target="#proj1-description">
-					<h2>Project 1 <span class="caret"></span></h2>
-					<div id="proj1-description">
+					<div class="header-content-container"><h2>Project 1 <span class="caret"></span></h2></div>
+					<div class="collapse" id="proj1-description">
 						<div class="col-md-7 col-sm-7">
-							<p class="collapse text-justify"> Our tool chain can generate attack scenarios given any
+							<p class="text-justify"> Our tool chain can generate attack scenarios given any
 								plant and controller description using SMT.</p>
 						</div>
 						<div class="col-md-5 col-sm-5" style="padding:0px 5px 0px 5px">
@@ -54,14 +55,25 @@
 					</div>
 				</div>
 			</div>
-			<div class="row" style="padding:15px">
-				<div data-toggle="collapse" data-target="#proj1-description">
-					<h2>Project 1 <span class="caret"></span></h2>
-					<p id="proj1-description" class="collapse text-justify"> High-performance computing is the use of
-						parallel processing for running advanced application programs efficiently, reliably and quickly.
-					</p>
-					<img class="img-responsive" src="" align="middle">
+			 <br>
+			<!-- <hr class="divider-line"> -->
+			</div>
+
+			<div class="row">
+			<div class="container topic-desc">
+				<div style="width:100% " data-toggle="collapse" data-target="#proj2-description">
+					<div class="header-content-container"><h2>Project 2 <span class="caret"></span></h2></div>
+					<div class="collapse" id="proj2-description">
+						<div class="col-md-7 col-sm-7">
+							<p class="text-justify"> Our tool chain can generate attack scenarios given any
+								plant and controller description using SMT.</p>
+						</div>
+						<div class="col-md-5 col-sm-5" style="padding:0px 5px 0px 5px">
+							<img class="img-responsive" src="/cps/formaltool.png" alt="">
+						</div>
+					</div>
 				</div>
+			</div>
 			</div>
 			<br>
 			<hr class="divider-line">
@@ -97,14 +109,17 @@
 				</div>
 			</div>
 			<div class="row" style="padding:15px">
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive img-rounded" src="/cps/bosch.jpg"></span>
+			<div class="col-md-3 col-sm-3 logo_helper">
+					<!-- <span><img class="img-responsive" src="/images/intel.png"></span> -->
 				</div>
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive" src=""></span>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span ><img class="img-responsive img-rounded" src="/images/bosch.png"></span>
 				</div>
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive" src=""></span>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span><img class="img-responsive" src="/images/tatamotors.png"></span>
+				</div>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<!-- <span><img class="img-responsive" src="/images/qualcomm.png"></span> -->
 				</div>
 			</div>
 		</div>

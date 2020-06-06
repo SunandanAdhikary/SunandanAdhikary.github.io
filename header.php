@@ -33,7 +33,7 @@ echo '
 	<div class="navbar navbar-default navbar-fixed-top"  role="navigation">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand"><img src="images/logo.pdf" class="img-responsive"  alt="logo"></a>
+			<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive"  alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">

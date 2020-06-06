@@ -2,15 +2,15 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include 'header.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
 
 <body>
 	
 <!-- navigation -->
-	<div class="container">
+	<!-- <div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand"><img src="../images/logo.pdf" class="img-responsive"  alt="logo"></a>
+			<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive"  alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -22,7 +22,7 @@
 			</ul>
 		</div>
 	</div>
-</div>		
+</div>		 -->
 
 <!-- home section -->
 <div id="home_hpc">
@@ -67,7 +67,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-4" >
-				<img src="../images/mechanism.jpeg" class="img-responsive" alt="about img" style="padding-top: 50px;">
+				<img src="/images/mechanism.jpeg" class="img-responsive" alt="about img" style="padding-top: 50px;">
 			</div>
 			<div class="col-md-8 col-sm-12 about-des">
 				<h2>Mechchanisms Used</h2>
@@ -93,24 +93,24 @@
             
 			
 			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/adas.jpg" alt="portfolio img"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/adas.jpg" alt="portfolio img"></a>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/ADASCover.png" alt="portfolio img"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/ADASCover.png" alt="portfolio img"></a>
 			</div>
             
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/encoding.png" alt="portfolio img"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/encoding.png" alt="portfolio img"></a>
 			</div>
 			
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/CNN.png" alt="portfolio img"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/CNN.png" alt="portfolio img"></a>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/temp.jpg" alt="portfolio img"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/temp.jpg" alt="portfolio img"></a>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="../images/HPC.pdf" alt="Automated scheduling framework"></a>
+				<a href="" data-lightbox-gallery="portfolio-gallery"><img src="/images/HPC.pdf" alt="Automated scheduling framework"></a>
 			</div>
 			<div class="">
 				<a rel="nofollow" href="" class="btn btn-default">View More</a>
@@ -146,9 +146,9 @@
 			
 		</div>
 
-		<div <div style="text-align: center;">
+		<div style="text-align: center;">
 				<a rel="nofollow" href="" class="btn btn-default">View More</a>
-			</div>
+		</div>
 	</div>
 </div>		
 
@@ -169,13 +169,13 @@
 
 
 <!-- footer section -->
-<?php include 'footer.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/custom.js"></script> -->
 
 </body>
 </html>

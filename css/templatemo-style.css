@@ -8,11 +8,22 @@ http://www.templatemo.com/tm-468-onetel
 
 body
 	{
-		background: #101010;
-    color: #808080;
+		background: #1a2631ea;
+    color: #b7ccf3;
 		font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 	}
+a {
+  color:rgb(108, 175, 233)
+}
+a:hover {
+  color:rgb(68, 135, 194)
+}
+a:visited {
+  color:rgb(192, 143, 204)
+}
+
+
 
 @media (min-width: 768px) {
   .container {
@@ -39,15 +50,29 @@ body
   font-size: 20px;
 }
 
+.topic-desc {
+  font-size: 18px;
+  color: #b7ccf3;
+  background:#364d63ea;
+  border: 5px;
+  box-shadow: #b7ccf3;
+  padding:10px;
+}
+
 .topic-desc p{
   font-size: 18px;
+  color: #b7ccf3
+}
+
+.topic-desc h2{
+  color: #b7ccf3
 }
 
 hr.divider-line {
   height: 10px;
   max-width: fit-content;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	box-shadow: 0px 13px 4px 2px #f6f8f9 inset;
 }
 
 /* heading section */
@@ -113,7 +138,7 @@ img {
  }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffa500;
+  color: #ffa500 ;
   border-bottom: #c14000;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -121,7 +146,7 @@ img {
 .navbar-default .navbar-nav > .active > a:focus {
   	color: #ffa500;
     background-color: transparent;
-    border-bottom: #c14000;
+    border-bottom: #c14000 !important;
 }
 .navbar-default .navbar-toggle {
   	background: #d54ab6;
@@ -131,28 +156,42 @@ img {
    	margin-bottom: 30px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background: #fff;
-    border-color: transparent;
+    background:transparent;
+    border-color: #c14000;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { 
-  background-color: transparent 
+  background-color: transparent ;
+  border-color: #c14000;
 }
 
 .active {
-	background: #333;
+	background: rgb(85, 85, 85);
 }
 .navbar-nav > li > .dropdown-menu {
   background-color: #202020;
 }
 
-.navbar-nav > li > .dropdown-menu:active {
+.navbar-nav > li > .dropdown-menu a{
+  background-color: #202020;
+}
+
+.navbar-nav > li > .dropdown-menu a{
+  background-color: #202020;
+}
+.navbar-nav > li > .dropdown-menu a:active{
+  background-color: #2e5077;
+}
+.navbar-nav > li > .dropdown-menu:focus {
   outline: teal;
 }
 .navbar-nav > li > .dropdown-menu:hover {
   background-color: #404040 ;
 }
-
+.navbar-nav > li > .dropdown-menu:active {
+  background-color: #404040 ;
+  border-bottom: #c14000;
+}
 /* home section */
 #home {
 /*   background: url('../images/home-bg.jpg') no-repeat; */
@@ -417,7 +456,7 @@ footer .input-group-addon {
 }
 footer a, footer a:visited {
   font-size: 14px;
-  color: #999;
+  color: rgb(173, 172, 172);
 }
 footer a:hover {
   color: #fff;
@@ -442,7 +481,7 @@ footer a:hover {
   margin: 10px 0px 0px 0px;
 }
 .social-icons li a {
-  color: #909090;
+  color: #b8b5b5;
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px;
@@ -451,7 +490,7 @@ footer a:hover {
   
 }
 .social-icons li a:hover {
-  background: #d54ab6;
+  background: #d54ac2;
   color: #fff;
 }
 

@@ -36,8 +36,8 @@
 <div class="container">
 	<div class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="197" role="navigation">
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<a href="#" class="navbar-brand"><img src="images/logo.pdf" class="img-responsive" alt="logo"></a>
+			<div class="navbar-header logo_helper">
+				<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive" alt="logo"></a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
@@ -202,17 +202,17 @@
 				</div>
 			</div>
 			<div class="row" style="padding:15px">
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive img-rounded" src="/cps/bosch.jpg"></span>
-					<!-- <h3>Thumbnail label</h3>
-        				<p>...</p>
-        			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button" -->
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span ><img class="img-responsive img-rounded" src="/images/bosch.png"></span>
 				</div>
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive" src="OpenCLArch.png"></span>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span><img class="img-responsive" src="/images/intel.png"></span>
 				</div>
-				<div class="col-md-4 col-sm-4 logo_helper">
-					<span class="img-thumbnail"><img class="img-responsive" src="OpenCLArch.png"></span>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span><img class="img-responsive" src="/images/qualcomm.png"></span>
+				</div>
+				<div class="col-md-3 col-sm-3 logo_helper">
+					<span><img class="img-responsive" src="/images/tatamotors.png"></span>
 				</div>
 			</div>
 		</div>
