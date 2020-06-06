@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include '/header.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
 
 <body>
 	
@@ -11,7 +11,7 @@
 	<!-- <div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand"><img src="../images/logo.pdf" class="img-responsive" alt="logo"></a>
+			<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive" alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -48,7 +48,7 @@
          <div class="row mt30">
          	<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Dr. Soumyajit Dey</h3>
 					<h4>PI, Associate Professor</h4>
 					<p></p>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Anirban Ghose</h3>
 					<h4>PhD Scholar</h4>
 					<p></p>
@@ -64,7 +64,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Srijeeta Maity</h3>
 					<h4>PhD Scholar</h4>
 					<p></p>
@@ -72,7 +72,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Danny Parrera</h3>
 					<h4>PhD Scholar</h4>
 					<p></p>
@@ -80,7 +80,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Siddharth</h3>
 					<h4>M. Tech Student</h4>
 					<p></p>
@@ -88,7 +88,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Arijit</h3>
 					<h4>M. Tech Student</h4>
 					<p></p>
@@ -97,7 +97,7 @@
 		
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
-					<img src="../images/gpu1.jpg" class="img-responsive" alt="team img">
+					<img src="/images/gpu1.jpg" class="img-responsive" alt="team img">
 					<h3>Shariq</h3>
 					<h4>M. Tech Student</h4>
 					<p></p>
@@ -110,13 +110,13 @@
 </div>		
 
 <!-- footer section -->
-<?php include 'footer.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/custom.js"></script> -->
 
 </body>
 </html>

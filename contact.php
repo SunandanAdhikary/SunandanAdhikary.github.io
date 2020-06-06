@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include 'header.php';?>
+<?php include  $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
 
 <body>
 	
@@ -82,13 +82,13 @@
 </div>		
 
 <!-- footer section -->
-<?php include 'footer.php';?>
+<?php include  $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/custom.js"></script> -->
 
 </body>
 </html>

@@ -34,7 +34,7 @@
 <!-- navigation -->
 
 <div class="container">
-	<div class="navbar navbar-default navbar-static-top" data-spy="affix" data-offset-top="197" role="navigation">
+	<div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header logo_helper">
 				<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive" alt="logo"></a>
@@ -54,7 +54,7 @@
 					<li><a class="dropdown-item" href="#mcn">Wireless multi-hop control networks</a></li>
 					</ul>
 				</li> -->
-					<li><a href="/publications.php">PUBLICATIONS</a></li>
+					<li><a href="http://cse.iitkgp.ac.in/~soumya/pub.html">PUBLICATIONS</a></li>
 					<li><a href="#industry">INDUSTRY</a></li>
 					<li><a href="http://cse.iitkgp.ac.in/~soumya/course.html">COURSES</a></li>
 					<li><a href="#contact">CONTACT US</a></li>
@@ -203,16 +203,16 @@
 			</div>
 			<div class="row" style="padding:15px">
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span ><img class="img-responsive img-rounded" src="/images/bosch.png"></span>
+					<span ><img class="img-responsive img-rounded" src="/images/industries/bosch.png"></span>
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span><img class="img-responsive" src="/images/intel.png"></span>
+					<span><img class="img-responsive" src="/images/industries/intel.png"></span>
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span><img class="img-responsive" src="/images/qualcomm.png"></span>
+					<span><img class="img-responsive" src="/images/industries/qualcomm.png"></span>
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span><img class="img-responsive" src="/images/tatamotors.png"></span>
+					<span><img class="img-responsive" src="/images/industries/tatamotors.png"></span>
 				</div>
 			</div>
 		</div>
@@ -266,7 +266,7 @@
 
 
 	<!-- footer section -->
-	<?php include 'footer.php';?>
+	<?php include  $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
 
 

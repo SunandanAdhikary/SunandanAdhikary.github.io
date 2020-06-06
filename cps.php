@@ -18,7 +18,7 @@
 			<!-- </div> -->
 		</div>
 		<div class="row" style="padding:15px">
-			<img class="img-responsive" src="" alt="">
+			<img class="img-responsive" src="/images/cps/cps.png" alt="cpsbanner">
 		</div>
 		<div class="row topic-desc lead" style="padding:15px">
 			<p><span>
@@ -50,7 +50,7 @@
 								plant and controller description using SMT.</p>
 						</div>
 						<div class="col-md-5 col-sm-5" style="padding:0px 5px 0px 5px">
-							<img class="img-responsive" src="/cps/formaltool.png" alt="attackSynthTool">
+							<img class="img-responsive" src="/images/cps/formaltool.png" alt="attackSynthTool">
 						</div>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 								plant and controller description using SMT.</p>
 						</div>
 						<div class="col-md-5 col-sm-5" style="padding:0px 5px 0px 5px">
-							<img class="img-responsive" src="/cps/formaltool.png" alt="">
+							<img class="img-responsive" src="/images/cps/formaltool.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -113,10 +113,10 @@
 					<!-- <span><img class="img-responsive" src="/images/intel.png"></span> -->
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span ><img class="img-responsive img-rounded" src="/images/bosch.png"></span>
+					<span ><img class="img-responsive img-rounded" src="/images/industries/bosch.png"></span>
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
-					<span><img class="img-responsive" src="/images/tatamotors.png"></span>
+					<span><img class="img-responsive" src="/images/industries/tatamotors.png"></span>
 				</div>
 				<div class="col-md-3 col-sm-3 logo_helper">
 					<!-- <span><img class="img-responsive" src="/images/qualcomm.png"></span> -->
