@@ -2,11 +2,11 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include 'header.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
 
 <body>
   
-<!-- navigation -->
+<!-- navigation
 
   <div class="container">
     <div class="navbar navbar-default navbar-static-top" role="navigation">
@@ -24,6 +24,7 @@
     </div>
   </div>
 </div>    
+-->
 
 <!-- contact header section -->
 <div id="tools-header">
@@ -131,8 +132,9 @@
 </div>
 
 
+
 <!-- footer section -->
-<?php include 'footer.php';?>
+<?php include $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
 <!-- javascript js -->	
 <script src="js/jquery.js"></script>
