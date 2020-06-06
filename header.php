@@ -50,7 +50,7 @@ echo '
 					<li><a class="dropdown-item" href="/mcn/mcn_home.php">Wireless multi-hop control networks</a></li>
 					</ul>
 				</li>
-				<li><a href="/publications.php">PUBLICATIONS</a></li>
+				<li><a href="#publications">PUBLICATIONS</a></li>
 				<li><a href="#industry">INDUSTRY</a></li>
 				<li><a href="http://cse.iitkgp.ac.in/~soumya/course.html">COURSES</a></li>
 				<li><a href="/contact.php">CONTACT US</a></li>

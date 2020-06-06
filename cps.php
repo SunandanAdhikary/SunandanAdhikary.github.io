@@ -82,7 +82,7 @@
 
 	<!-- publication section -->
 	<div class="content text-center">
-		<div class="container">
+		<div class="container" id="publications">
 			<div class="row " style="padding:15px">
 				<div class="col-md-12 col-sm-12">
 				<div class="header">
