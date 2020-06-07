@@ -20,8 +20,7 @@
 	<Directory  "f:/wamp64/www/hiprc_webpage_new/">
 		Options +Indexes +Includes +FollowSymLinks +MultiViews
 		AllowOverride All
-		# Require local
-    Deny from none
+		Require local
 	</Directory>
 </VirtualHost>
 ```
