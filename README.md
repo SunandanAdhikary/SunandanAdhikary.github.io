@@ -3,7 +3,7 @@ My research group Website
 Usually static/html websites are hosted by git but this is a php/dynamic website so won't be accessed using [SunandanAdhikary.github.io](https://SunandanAdhikary.github.io).
 ## How to set up
 #### Install WAMP/XAMP/MAMP based on your OS i.e. Win/Linux/MAC
-#### Clone/pull this project insite www folder of your  WAMP/XAMP/MAMP/LAMP installation directory
+#### Clone/pull this project insite www or htdocs folder of your  WAMP/XAMP/MAMP/LAMP installation directory
 > whole website folder should be in www folder eg. *C:/wamp64/www/Hiprc_website/* and this will be your **website server root**.
 #### Start all services in WAMP/XAMP/MAMP/LAMP
 > just run it, you can access it in your system tray (beside notifications/shutdown menu) in Win/Linux/MAC.
