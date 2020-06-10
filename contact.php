@@ -64,11 +64,11 @@
 			<div class="col-md-4 col-sm-4 address">
 				<div>
 					<h3>Email</h3>
-					<p>info@company.com</p>
+					<p>hiprc@googlegroups.com</p>
 				</div>
 				<div>
 					<h3>Phones</h3>
-					<p>010-020-0340 | 090-080-0760</p>
+					<p>000000000000</p>
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 mt20">
@@ -84,11 +84,6 @@
 <!-- footer section -->
 <?php include  $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
 
-<!-- javascript js -->	
-<!-- <script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script> -->
 
 </body>
 </html>
