@@ -33,8 +33,10 @@ echo '
 	<div class="navbar navbar-default navbar-fixed-top"  role="navigation">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive"  alt="logo"></a>
-		</div>
+		<!-- 	<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive"  alt="logo"></a>
+		-->
+        <a class="navbar-brand" style="color:white;">HiPRC</a>
+        </div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="/index.php">HOME</a></li>
@@ -45,14 +47,14 @@ echo '
 					<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="/hpc/index_hpc.php">High Performance Computing</a></li>
-					<li><a class="dropdown-item" href="/cps/cps.php">Cyber-Physical System Control & Security</a></li>
-					<li><a class="dropdown-item" href="#sg">Smart Grid</a></li>
+					<li><a class="dropdown-item" href="/cps.php">Cyber-Physical System Control & Security</a></li>
+					<li><a class="dropdown-item" href="/grid/index_grid.php">Smart Grid</a></li>
 					<li><a class="dropdown-item" href="/mcn/mcn_home.php">Wireless multi-hop control networks</a></li>
 					</ul>
 				</li>
-				<li><a href="#publications">PUBLICATIONS</a></li>
-				<li><a href="#industry">INDUSTRY</a></li>
-				<li><a href="http://cse.iitkgp.ac.in/~soumya/course.html">COURSES</a></li>
+				<li><a href="http://cse.iitkgp.ac.in/~soumya/pub.html">PUBLICATIONS</a></li>
+                <li><a href="/index.php/#industry">INDUSTRY</a></li>
+                <li><a href="http://cse.iitkgp.ac.in/~soumya/course.html">COURSES</a></li>
 				<li><a href="/contact.php">CONTACT US</a></li>
 			</ul>
 		</div>
