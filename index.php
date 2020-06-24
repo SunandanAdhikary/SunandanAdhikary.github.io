@@ -90,7 +90,7 @@
 				<div class="col-md-6 col-sm-6 text-left text-justify" id="aboutus">
 					<div>
 						<h1 class="header-content-container">About Us</h1>
-						<p><span>We are a motivated group of people from <a href="">Indian Institute of Techology,
+						<p><span>We are a motivated group of people from <a href="http://www.iitkgp.ac.in/">Indian Institute of Techology,
 									Kharagpur</a> working under <a href="http://cse.iitkgp.ac.in/~soumya/">Professor Soumyajit Dey</a></span></p>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 				<div class="col-md-6 col-sm-6 card" style="padding:15px">
 					<div class="divider-wrapper divider-one" data-toggle="collapse" data-target="#hpc-description">
 						<i class="fa fa-laptop"></i>
-						<h2>High-Performance Computating</h2>
+						<h2>High-Performance run-time System</h2>
 						<p id="hpc-description" class="collapse"> High-performance computing is the use of parallel
 							processing for running advanced application programs efficiently, reliably and quickly. </p>
 						<a href="/hpc/index_hpc.php" class="btn btn-default">LEARN MORE</a>
@@ -163,7 +163,7 @@
 						<i class="fa fa-clock-o" aria-hidden="true"></i>
 						<h2>Real-Time Systems</h2>
 						<p id="rts-description" class="collapse"> ... </p>
-						<a href="/rts/rts.php" class="btn btn-default">LEARN MORE</a>
+						<a href="/rts.php" class="btn btn-default">LEARN MORE</a>
 					</div>
 				</div>
 
