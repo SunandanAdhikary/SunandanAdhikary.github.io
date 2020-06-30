@@ -27,15 +27,17 @@ echo '
     <script src="/js/custom.js"></script>
 
 </head>
+
+
 <!-- navigation -->
 
-<div class="container">	
-	<div class="navbar navbar-default navbar-fixed-top"  role="navigation">
+	
+	<nav class="navbar navbar-fixed-top" style="background: #ece2d9;box-shadow: 1px 1px 9px 0px #42371c;">
 	<div class="container-fluid">
 		<div class="navbar-header">
 		<!-- 	<a href="#" class="navbar-brand"><img src="/images/logo.pdf" class="img-responsive"  alt="logo"></a>
 		-->
-        <a class="navbar-brand" style="color:white;">HiPRC</a>
+        <a class="navbar-brand" style="color:#885104;font-weight:510;font-size:30px">HiPRC</a>
         </div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -47,20 +49,21 @@ echo '
 					<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="/hpc/index_hpc.php">High Performance Computing</a></li>
-					<li><a class="dropdown-item" href="/cps.php">Cyber-Physical System Control & Security</a></li>
-					<li><a class="dropdown-item" href="/grid/index_grid.php">Smart Grid</a></li>
-					<li><a class="dropdown-item" href="/mcn/mcn_home.php">Wireless multi-hop control networks</a></li>
+					<li><a class="dropdown-item" href="/cps.php">Cyber-Physical System</a></li>
+                    <li><a class="dropdown-item" href="/mcn/mcn_home.php">Wireless multi-hop control networks</a></li>
+                    <li><a class="dropdown-item" href="/rts.php">Automotives</a></li>
+                    <li><a class="dropdown-item" href="/grid/index_grid.php">Smart Grid</a></li>
 					</ul>
 				</li>
 				<li><a href="http://cse.iitkgp.ac.in/~soumya/pub.html">PUBLICATIONS</a></li>
-                <li><a href="/index.php/#industry">INDUSTRY</a></li>
+                <li><a href="/index.php/#industry">FUNDING</a></li>
                 <li><a href="http://cse.iitkgp.ac.in/~soumya/course.html">COURSES</a></li>
 				<li><a href="/contact.php">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>
-</div>
-</div>	
+</nav>
+	
 
     ';
 ?>

@@ -13,14 +13,14 @@
 		<div class="row" style="padding:15px">
 			<!-- <div class="col-md-12 col-sm-12"> -->
 			<div class="hero-unit">
-				<h1><span>Real Time Systems</span></h1>
+				<h1><span>Automotive Systems</span></h1>
 			</div>
 			<!-- </div> -->
 		</div>
 		<div class="row" style="padding:15px">
 			<img class="img-responsive" src="/images/rts/etaslabcar.jpg" alt="rtsbanner">
 		</div>
-		<div class="row topic-desc lead" style="padding:15px">
+		<div class="row topic-desc" style="padding:15px">
 			<p><span>
 				Real-time systems are collections of tasks where in addition to any ordering constraints
 				imposed by precedences between the tasks, there are also timing constraints. 
@@ -52,7 +52,7 @@
 		<div class="container">
 			<div class="row " style="padding:15px">
 				<!-- <div class="col-md-12 col-sm-12"> -->
-				<div class="header">
+				<div class="header center">
 					<h1><span>Research Topics</span></h1>
 				</div>
 				<!-- </div> -->
