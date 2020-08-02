@@ -2,12 +2,12 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
+<?php include '../js/header.php';?>
 
 <body>
 
 
-	<div class="container text-center rounded_rectangle">
+	<div class="container text-center rounded_rectangle" style="margin-top:60px">
 		<div class="row" style="padding:15px">
 			<!-- <div class="col-md-12 col-sm-12"> -->
 			<div class="hero-unit">
@@ -16,7 +16,7 @@
 			<!-- </div> -->
 		</div>
 		<div class="row" style="padding:15px">
-			<img class="one" src="/grid/images/toolflow.jpeg" width="700" height="400" alt="HVAC">
+			<img class="one" src="./images/toolflow.jpeg" width="700" height="400" alt="HVAC">
 		</div>
 		<div class="row topic-desc" style="padding:15px">
 			<p><span>
@@ -45,16 +45,16 @@
 			<div class="container topic-desc">
 				<div style="width:100% " data-toggle="collapse" data-target="#proj1-description">
 					<div class="header-content-container"><h2>Inputs<span class="caret"></span></h2></div>
-					<div class="collapse show" id="proj1-description">
+					<div class="collapse" id="proj1-description">
 							<p class="row topic-desc"> 
 
-								Building Architectural Specification[<a href="/grid/images/Office.xml" download ="Office.xml">Sample Format</a>]
+								Building Architectural Specification[<a href="./images/Office.xml" download ="Office.xml">Sample Format</a>]
 							</p>
 							<p class="row topic-desc"> 
-								HVAC System Design Information[<a href="/grid/images/HVACdesign.txt" download ="HVACdesign.txt">Sample Format</a>]
+								HVAC System Design Information[<a href="./images/HVACdesign.txt" download ="HVACdesign.txt">Sample Format</a>]
 							</p>
 							<p class="row topic-desc"> 
-								Building Usage Demands[<a href="/grid/images/demand_list.txt" download ="demand_list.txt">Sample Format</a>]
+								Building Usage Demands[<a href="./images/demand_list.txt" download ="demand_list.txt">Sample Format</a>]
 							</p>
 					</div>
 				</div>
@@ -65,12 +65,12 @@
 
 			<div class="row">
 			<div class="container topic-desc">
-				<div style="width:100% " data-toggle="collapse" data-target="#proj1-description">
+				<div style="width:100% " data-toggle="collapse" data-target="#proj2-description">
 					<div class="header-content-container"><h2>Outputs<span class="caret"></span></h2></div>
-					<div class="collapse show" id="proj1-description">
+					<div class="collapse" id="proj2-description">
 							<p class="row topic-desc"> 
 
-								Demand to Zone Allocation[<a href="/grid/images/allocation_list.txt" download ="allocation_list.txt">Sample Format</a>]
+								Demand to Zone Allocation[<a href="./images/allocation_list.txt" download ="allocation_list.txt">Sample Format</a>]
 							</p>
 							<p class="row topic-desc"> 
 								Building Temperature Control Statistics
@@ -88,9 +88,9 @@
 
 			<div class="row">
 			<div class="container topic-desc">
-				<div style="width:100% " data-toggle="collapse" data-target="#proj1-description">
+				<div style="width:100% " data-toggle="collapse" data-target="#proj3-description">
 					<div class="header-content-container"><h2>Software Dependency<span class="caret"></span></h2></div>
-					<div class="collapse show" id="proj1-description">
+					<div class="collapse" id="proj3-description">
 							<p class="row topic-desc"> 
 									Python 2.7
 							</p>
@@ -113,14 +113,14 @@
 
 			<div class="row">
 			<div class="container topic-desc">
-				<div style="width:100% " data-toggle="collapse" data-target="#proj1-description">
+				<div style="width:100% " data-toggle="collapse" data-target="#proj4-description">
 					<div class="header-content-container"><h2>Tool FLow<span class="caret"></span></h2></div>
-					<div class="collapse show" id="proj1-description">
+					<div class="collapse" id="proj4-description">
 							<p class="row topic-desc"> 
 
 								<ul>
 									<li>
-										We provide a front-end parser (<a href="/grid/images/1_gbXMLParser.py" download ="XMLParser.py">Sample Code</a>) which takes as input building information stored in a industry standard building description schema gbXML (<a href="/grid/images/Office1.xml" download ="Office.xml">Sample Building Architecture</a>, <a href="/grid/images/LAYOUT_Office.txt" download ="LAYOUT_Office.txt">Description</a>). Using this as input our tool automatically generates building thermal models encoded in the Modelica language (<a href="/grid/images/Office.mo" download ="Office.mo">Sample Output</a>). These building thermal models can be simulated (required model like Room, Partition_EX, Partition_IN etc. See <a href="HVAC_Download.php">Download</a> ) in the open source OpenModelica environment. In that way, our framework can process the design storage format of many well known building architecture design tools.
+										We provide a front-end parser (<a href="./images/1_gbXMLParser.py" download ="XMLParser.py">Sample Code</a>) which takes as input building information stored in a industry standard building description schema gbXML (<a href="./images/Office1.xml" download ="Office.xml">Sample Building Architecture</a>, <a href="./images/LAYOUT_Office.txt" download ="LAYOUT_Office.txt">Description</a>). Using this as input our tool automatically generates building thermal models encoded in the Modelica language (<a href="./images/Office.mo" download ="Office.mo">Sample Output</a>). These building thermal models can be simulated (required model like Room, Partition_EX, Partition_IN etc. See <a href="HVAC_Download.php">Download</a> ) in the open source OpenModelica environment. In that way, our framework can process the design storage format of many well known building architecture design tools.
 									</li>
 									<br>
 										<li>
@@ -128,11 +128,11 @@
 									</li>
 									<br>
 										<li> 
-										Using the Building Usage Demands and HVAC System Design Information, the tool generates LPTA models (<a href="/grid/images/new.xml" download ="new.xml">Sample Model</a>, <a href="/grid/images/hvac.q.txt" download ="hvac.q.txt">Query</a>, <a href="/grid/images/command.txt" download ="command.txt">Command</a>) for cost optimal reachability analysis in the UPPAAL CORA environment. The output of this phase is the Zone occupancy information which is used to calculate the interval based building load and on/off schedule of AHUs.
+										Using the Building Usage Demands and HVAC System Design Information, the tool generates LPTA models (<a href="./images/new.xml" download ="new.xml">Sample Model</a>, <a href="./images/hvac.q.txt" download ="hvac.q.txt">Query</a>, <a href="./images/command.txt" download ="command.txt">Command</a>) for cost optimal reachability analysis in the UPPAAL CORA environment. The output of this phase is the Zone occupancy information which is used to calculate the interval based building load and on/off schedule of AHUs.
 									</li>
 									<br>
 										<li>
-										We provide a front-end parser (<a href="/grid/images/1_gbXMLParser.py" download ="XMLParser.py">Sample Code</a>) which takes as input building After cooling load assignment to different thermal zones, the tool extracts the dynamical system equations from the Modelica model and generates the underlying plant model which is used for control design using suitable MATLAB routines.
+										We provide a front-end parser (<a href="./images/1_gbXMLParser.py" download ="XMLParser.py">Sample Code</a>) which takes as input building After cooling load assignment to different thermal zones, the tool extracts the dynamical system equations from the Modelica model and generates the underlying plant model which is used for control design using suitable MATLAB routines.
 									</li>
 								</ul>
 
@@ -142,6 +142,14 @@
 			</div>
 			 <br>
 			<!-- <hr class="divider-line"> -->
+
+						<div class="row">
+				<div class="col-md-5 col-sm-5"></div>
+				<div class="col-md-2 col-sm-2" style="padding:20px">
+				<a href="./index_grid.php#SmartGridresearch" class="btn btn-default" style="border-color:#885104;border-style:solid">Back To Smart Grid</a>
+				</div>
+				<div class="col-md-5 col-sm-5"></div>
+			</div>
 			</div>
 
 
@@ -156,7 +164,7 @@
 								
 
 <!-- footer section -->
-<?php include $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
+<?php include '../footer.php';?>
 
 </body>
 </html>

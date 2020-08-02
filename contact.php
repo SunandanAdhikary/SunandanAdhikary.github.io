@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- header section -->
-<?php include  $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
+<!-- header section-->
+<?php include   './header.php';?>
 
 <body>
 	
-<!-- navigation -->
 
-	<!-- <div class="container">
-		<div class="navbar navbar-default navbar-static-top" role="navigation">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand"><img src="images/logo.pdf" class="img-responsive" alt="logo"></a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.php" >HOME</a></li>
-				<li><a href="contact.php" class="active">CONTACT US</a></li>
-			</ul>
-		</div>
-	</div>
-</div>		 -->
 
 <!-- contact header section -->
 <div id="contact-header">
@@ -39,50 +20,66 @@
 <!-- contact section -->
 <div id="contact">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-sm-12">
-				<h2>Get in touch</h2>
-                <p> If you are interested in this domain and want to pursue research contact us through email. </p>
-			</div>
-			<div class="col-md-8 col-sm-8 mt30">
-				<form action="#" method="post" role="form">
-					<div class="col-md-6 col-sm-6">
-                        <label for="name">NAME</label>
-                        <input name="name" type="text" class="form-control" id="name">
-                      <label for="email">EMAIL</label>
-                        <input name="email" type="email" class="form-control" id="email">
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<label for="message">MESSAGE</label>
-						<textarea name="message" rows="6" class="form-control" id="message"></textarea>
-					</div>
-                    <div class="col-md-6 col-sm-6">
-                    	<button type="submit" name="submit" class="btn btn-default">SEND</button>
-                    </div>
-				</form>
-			</div>
-			<div class="col-md-4 col-sm-4 address">
-				<div>
-					<h3>Email</h3>
-					<p>hiprc@googlegroups.com</p>
-				</div>
-				<div>
-					<h3>Phones</h3>
-					<p>000000000000</p>
-				</div>
-			</div>
-			<div class="col-md-12 col-sm-12 mt20">
-            	<h3>Location</h3>
-				<div class="google_map mt20">
-					<div id="map-canvas"></div>
-				</div>
+		
+		<span class="text-center">
+			<h2>Open Positions</h2>
+		</span>
+
+		<div class="row industry">
+			<div class="row">
+	            	<span class="text-center">
+	            		<h4> None right now. </h4>
+	            	</span>
+					
 			</div>
 		</div>
-	</div>
-</div>		
+		<br><br>
+		<span class="text-center">
+					<h2>Get in touch</h2>
+		            
+		</span>
 
-<!-- footer section -->
-<?php include  $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
+		<div class="row industry">
+			
+			<span class="text-center">
+
+				<h4> If you are interested in these research domains and want to pursue research contact us through email. </h4>
+
+				<div class="col-md-6 col-sm-6 ">					
+					<i class="fa fa-envelope-o"></i>
+
+					<p><a href="mailto:hiprc@googlegroup.com" target="_blank">hiprc@googlegroup.com</a></p>
+				</div>
+
+				<div class="col-md-6 col-sm-6">
+							
+							<i class="fa fa-phone"></i>
+							<p>03222282348</p>
+						
+				</div>
+			</span>
+		</div>
+
+		<div class="container">
+			<div class="row ">
+	            	<span class="text-center"><h3>Location</h3>
+	            	</span>
+
+                    <div class="mapouter google_map mt20" style="margin-left: auto; margin-right: auto;"><div class="gmap_canvas"><iframe width="1080" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=iit%20kharagpur%20computer%20science%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://thevpndeal.com/nordvpn-coupon/">nordvpn coupon</a></div><style>.mapouter{position:relative;text-align:right;height:305px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:305px;width:1080px;}</style></div>
+					
+			</div>
+		</div>
+
+
+
+	</div>
+</div>	
+
+	
+
+<!-- footer section-->
+<?php include  './footer.php';?>
+
 
 
 </body>

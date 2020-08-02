@@ -2,21 +2,21 @@
 <html lang="en">
 
 <!-- header section -->
-<?php include $_SERVER["DOCUMENT_ROOT"] .'/header.php';?>
+<?php include '../js/header.php';?>
 
 <body>
 
 
-	<div class="container text-center rounded_rectangle">
+	<div class="container text-center rounded_rectangle" style="margin-top:60px">
 		<div class="row" style="padding:15px">
 			<!-- <div class="col-md-12 col-sm-12"> -->
-			<div class="hero-unit">
+			<div class="hero-unit" >
 				<h1><span> Microgrid Economic Dispatch for Building Networks using Learning Based Technique</span></h1>
 			</div>
 			<!-- </div> -->
 		</div>
 		<div class="row" style="padding:15px">
-			<img class="one" src="/grid/images/MPC.png" width="700" height="400" alt="HVAC">
+			<img class="one" src="./images/MPC.png" width="700" height="400" alt="HVAC">
 		</div>
 		<div class="row topic-desc" style="padding:15px">
 			<p><span>
@@ -27,6 +27,13 @@
 		</div>
 		<br>
 			<hr class="divider-line">
+						<div class="row">
+				<div class="col-md-5 col-sm-5"></div>
+				<div class="col-md-2 col-sm-2" style="padding:20px">
+				<a href="./index_grid.php#SmartGridresearch" class="btn btn-default" style="border-color:#885104;border-style:solid">Back To Smart Grid</a>
+				</div>
+				<div class="col-md-5 col-sm-5"></div>
+			</div>
 	</div>
 
 
@@ -38,7 +45,7 @@
 								
 
 <!-- footer section -->
-<?php include $_SERVER["DOCUMENT_ROOT"] .'/footer.php';?>
+<?php include '../footer.php';?>
 
 
 </body>
