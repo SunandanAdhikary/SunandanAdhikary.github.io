@@ -1,5 +1,5 @@
 ---
-layout : hacker
+layout : page
 title : Sunandan's Home
 permalink : /
 ---
