@@ -22,13 +22,13 @@ title: Sunandan's Home
 email: mesunandan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Homepage of Sunandan Adhikary
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://SunandanAdhikary.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
