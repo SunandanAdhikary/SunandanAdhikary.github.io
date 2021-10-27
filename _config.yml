@@ -28,7 +28,7 @@ twitter_username: ""
 github_username:  ""
 
 # Build settings
-remote-theme: jekyll-theme-hacker
+remote_theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
