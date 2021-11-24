@@ -8,7 +8,7 @@ relative_permalinks: true
 
 # Setup
 title:            My Place
-tagline:          'Sunandan's Home'
+tagline:          "Sunandan's Home"
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://SunandanAdhikary.github.io
 baseurl:          /
