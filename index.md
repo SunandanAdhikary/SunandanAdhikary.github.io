@@ -2,6 +2,7 @@
 layout : page
 title : Sunandan's Home
 permalink : /
+theme : hyde
 ---
 ## Welcome to My HomePage
 ------
