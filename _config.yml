@@ -1,26 +1,32 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title: "My Space"
+author: "Sunandan Adhikary"
+description: "..."
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-# Permalinks
-permalink:        pretty
-# relative_permalinks: true
+# Layout
 
-# Setup
-title:            My Place
-tagline:          "Sunandan's Home"
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://SunandanAdhikary.github.io
-baseurl:          /
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
 
-author:
-  name:           'Sunanan Adhikary'
-  url:            https://twitter.com/mesunandan
+# Menu
 
-paginate:         5
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "README.md"}
 
-# Custom vars
-version:          2.1.0
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-github:
-  repo:           https://github.com/SunandanAdhikary
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
