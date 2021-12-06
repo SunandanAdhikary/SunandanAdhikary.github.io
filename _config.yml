@@ -1,4 +1,4 @@
-title: "My Space"
+title: "Welcome to Sunandan's Space"
 author: "Sunandan Adhikary"
 description: "..."
 permalink: /:title/
@@ -9,20 +9,21 @@ date_format: "%B %d, %Y"
 # Layout
 
 show_excerpts: true        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
+show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+minimal: false             # use a dark header
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "index.md"}
+  - {file: "blogs.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:mesunandan@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/SunandanAdhikary"}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?hl=en&user=VsnaXGoAAAAJ"}
+  - {title: Youtube, icon: youtube, url: "https://www.youtube.com/channel/UCTzpx5WoEU6FYKBzrQEkymg"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
@@ -30,3 +31,5 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-spaceship
+
