@@ -1,6 +1,6 @@
 title: "Welcome to Sunandan's Space"
 author: "Sunandan Adhikary"
-description: "..."
+description: "My Space"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -32,6 +32,4 @@ comments:
 plugins:
  - jekyll-feed
  - jekyll-spaceship
- - jekyll-gist
- - github-pages
 
