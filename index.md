@@ -24,7 +24,7 @@ categories: media
 **Indian Institute of Technology, Kharagpur**
 <br>
 
-**Email:**<a href="mailto:mesunandan@gmail.com">
+**Email :** <a href="mailto:mesunandan@gmail.com">
 
 _mesunandan@gmail.com_
 </a> /  <a href="mailto:mesunandan@gmail.com">
@@ -39,12 +39,13 @@ _mesunandan@kgpian.iitkgp.ac.in_</a>
     <a href="mailto:mesunandan@gmail.com"><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a>
     <a href="https://github.com/SunandanAdhikary"><svg aria-label="Github" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a>
     <a href="https://scholar.google.com/citations?hl=en&user=VsnaXGoAAAAJ"><svg aria-label="Google Scholar" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#google"></use></svg></a>
+    <a href="https://www.linkedin.com/in/sunandan-adhikary"><svg aria-label="LinkedIn" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#linkedin"></use></svg></a>
     <a href="https://www.youtube.com/channel/UCTzpx5WoEU6FYKBzrQEkymg"><svg aria-label="Youtube" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#youtube"></use></svg></a>
     </span>
 </td>
 <td>
 
-I am a PhD student, currently persuing my research on the *Development of learning based safe and secure control strategies for CPS* under the guidance of [Prof. Soumyajit Dey](http://cse.iitkgp.ac.in/~soumya/){:target="_blank"} in [HiPRC lab](http://cse.iitkgp.ac.in/resgrp/hiprc/){:target="_blank"}.* and [Formal Methods Research Group](http://cse.iitkgp.ac.in/~fmres/){:target="_blank"}.
+I am a PhD student, currently persuing my research on the *Development of learning based safe and secure control strategies for CPS* under the guidance of [Prof. Soumyajit Dey](http://cse.iitkgp.ac.in/~soumya/){:target="_blank"} in [HiPRC lab](http://cse.iitkgp.ac.in/resgrp/hiprc/){:target="_blank"}. and [Formal Methods Research Group](http://cse.iitkgp.ac.in/~fmres/){:target="_blank"}.
 <!-- `Here’s to the fools who dream, Crazy as they may seem. Here’s to the hearts that ache. Here’s to the mess we make!` -->
 </td></tr>
 
@@ -52,8 +53,7 @@ I am a PhD student, currently persuing my research on the *Development of learni
 
 </div>
 
-
-`    Here’s to the fools who dream, Crazy as they may seem. Here’s to the hearts that ache. Here’s to the mess we make!     `
+***
 
 
 <div>
@@ -93,7 +93,7 @@ I am a PhD student, currently persuing my research on the *Development of learni
  ### MS - 9.33 CGPA 
 * [IIT Kharagpur](http://www.iitkgp.ac.in/){:target="_blank"} (2018-2021)
 * [Department of Computer Science](https://cse.iitkgp.ac.in/){:target="_blank"}
-* On the topic of **_EXPLORING PLATFORM AWARE FORMAL METHODS FOR SAFE AND SECURE CYBER-PHYSICAL SYSTEMS_**
+* On the topic of [**_EXPLORING PLATFORM AWARE FORMAL METHODS FOR SAFE AND SECURE CYBER-PHYSICAL SYSTEMS_**](assets/pdfs/thesis_Sunandan.pdf){:target="_blank"}
 Under the guidance of [Prof. Soumyajit Dey](http://cse.iitkgp.ac.in/~soumya/){:target="_blank"}, [Prof Aritra Hazra](https://cse.iitkgp.ac.in/~aritrah/){:target="_blank"}
 
 </td>
@@ -138,8 +138,8 @@ Under the guidance of [Prof. Soumyajit Dey](http://cse.iitkgp.ac.in/~soumya/){:t
 <td>
 
 ### Conference Papers
-**Skip to secure: Securing cyber-physical control loops with intentionally skipped executions**  In *Proceedings of CCS pre-conference Joint Workshop on CPS&IoT Security and Privacy (CPSIOTSEC) 2020*
-* Authors: **S. Adhikary**, I. Koley, S. K. Ghosh, S. Ghosh, S. Dey, and D. Mukhopadhyay.
+[**Skip to secure: Securing cyber-physical control loops with intentionally skipped executions**  In *Proceedings of CCS pre-conference Joint Workshop on CPS&IoT Security and Privacy (CPSIOTSEC) 2020*](https://dl.acm.org/doi/abs/10.1145/3411498.3419966){:target="_blank"}. [[PDF](assets/pdfs/skip2secure.pdf){:target="_blank"}]
+* Authors : **S. Adhikary**, I. Koley, S. K. Ghosh, S. Ghosh, S. Dey, and D. Mukhopadhyay.
 
 </td>
 </tr>
@@ -148,9 +148,8 @@ Under the guidance of [Prof. Soumyajit Dey](http://cse.iitkgp.ac.in/~soumya/){:t
 <td>
 
 ### Journal Papers
-**SMT-based Verification of Safety-CriticalEmbedded Control Software**  In *IEEE Embedded Systems Letters.*
-* Authors: **Sunandan Adhikary**, Amit Gurung, Jay Thakkar, Antonio Bruto Da Costa, Aritra Hazra, Soumyajit Dey, Pallab Dasgupta
-
+[**SMT-based Verification of Safety-CriticalEmbedded Control Software**  In *IEEE Embedded Systems Letters Volume 13, Issue 3, pp. 138-141, September 2021*](https://ieeexplore.ieee.org/abstract/document/9247249){:target="_blank"}. [[PDF](assets/pdfs/ESL_FMSafePaper.pdf){:target="_blank"}]
+* Authors : **Sunandan Adhikary**, Amit Gurung, Jay Thakkar, Antonio Bruto Da Costa, Aritra Hazra, Soumyajit Dey, Pallab Dasgupta
 </td>
 </tr>
 <tr>

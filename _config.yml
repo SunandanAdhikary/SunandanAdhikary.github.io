@@ -1,6 +1,7 @@
 title: "Welcome to Sunandan's Space"
 author: "Sunandan Adhikary"
-description: "My Space"
+description: " Here’s to the fools who dream, Crazy as they may seem. 
+               Here’s to the hearts that ache. Here’s to the mess we make!"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -23,6 +24,10 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:mesunandan@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/SunandanAdhikary"}
   - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?hl=en&user=VsnaXGoAAAAJ"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/sunandan-adhikary"}
+  # - {title: Twitter, icon: twitter, url: "https://twitter.com/sunandan_adhikary"}
+  # - {title: Facebook, icon: facebook, url: "https://www.facebook.com/sunandan.adhikary"}
+  # - {title: Instagram, icon: instagram, url: "https://www.instagram.com/sunandan_adhikary/"}
   - {title: Youtube, icon: youtube, url: "https://www.youtube.com/channel/UCTzpx5WoEU6FYKBzrQEkymg"}
 
 comments:
