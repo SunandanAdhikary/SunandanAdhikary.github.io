@@ -32,10 +32,10 @@ and likewise...
 
 syntax:
 ```markdown
- > My mom always said life was like a box of chocolates. You never know what you're gonna get.
+ > It's **10% _`luck`_**, **20% _`skill`_**, **15% *`concentrated power of will`***, **5% *`pleasure`***, **50% *`pain`***, and **100% reason to _Remember My Name_**  🕶️
 ```
 
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
+> It's **10% _`luck`_**, **20% _`skill`_**, **15% *`concentrated power of will`***, **5% *`pleasure`***, **50% *`pain`***, and **100% reason to _Remember My Name_**  🕶️
 
 ### Multiline
 
