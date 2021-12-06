@@ -2,6 +2,7 @@
 layout: default
 # title: "About Me"
 categories: media
+# mathjax: true
 ---
 <div class="basic-info">
 <table markdown=1>
