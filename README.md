@@ -7,7 +7,7 @@ This repository contains my personal portfolio website, academic profile, and te
 ## 📑 Documentation
 
 - **[GITHUB_PROFILE_README.md](GITHUB_PROFILE_README.md)** - Comprehensive GitHub profile biography with research details, publications, and achievements. You can use this in your GitHub profile repository.
-- **[REPOSITORY_GUIDE.md](REPOSITORY_GUIDE.md)** - Complete guide to repository structure, features, and customization.
+- **[REPOSITORY_GUIDE.md](REPOSITORY_GUIDE.md)** - Complete guide to repository structure, features, and customisation.
 - **[HOWTO.md](HOWTO.md)** - Setup instructions and development guide for running this blog locally.
 - **[CLEANUP_GUIDE.md](CLEANUP_GUIDE.md)** - List of unnecessary files that can be safely removed.
 
