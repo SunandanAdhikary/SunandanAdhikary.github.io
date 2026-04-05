@@ -7,4 +7,15 @@
     {%- if item.icon -%}<svg aria-label="{{ title }}" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- else -%}{{ title }}{%- endif -%}
   </a>
 {%- endfor -%}
+{% if include.is_header %}
+  <a href="#" onclick="toggleDarkMode(); return false;" title="Toggle Day/Night Mode">🌓 Mode</a>
+{% elsif include.is_footer %}
+  <a href="#" onclick="scrollToTop(); return false;" title="Back to Top">▲ Top</a>
+{% endif %}
 </nav>
+
+<script>
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>

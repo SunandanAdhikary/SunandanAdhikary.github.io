@@ -1,9 +1,86 @@
 ---
 ---
 
-## Installation
+## Getting Started
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+### Prerequisites
+
+To work with this blog locally, ensure you have:
+
+- **Ruby** (2.7.0+): `ruby --version`
+- **Jekyll** (3.9.0+): `gem install jekyll bundler`
+- **Git**: Version control for managing changes
+
+## Installation and Setup
+
+### Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SunandanAdhikary/SunandanAdhikary.github.io.git
+   cd SunandanAdhikary.github.io
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   bundle install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   bundle exec jekyll serve
+   ```
+   Access the blog at `http://localhost:4000`
+
+### Creating Blog Posts
+
+1. **Create a new file in `_posts/` with the naming convention:**
+   - Format: `YYYY-MM-DD-post-title.md`
+   - Example: `2026-04-05-state-space-models.md`
+
+2. **Add front matter (YAML metadata):**
+   ```yaml
+   ---
+   layout: post
+   title: "Your Blog Post Title"
+   date: 2026-04-05
+   categories: blog
+   author: "Sunandan Adhikary"
+   ---
+   ```
+
+3. **Write your content in Markdown:**
+   - Use `#`, `##`, `###` for headings
+   - Use `**text**` for bold, `*text*` for italic
+   - Use ` ``` ` for code blocks
+   - Use `[link text](url)` for links
+
+### MathJax / LaTeX Support
+
+To use mathematical equations in your posts:
+
+1. **Add to front matter:**
+   ```yaml
+   mathjax: true
+   ```
+
+2. **Use LaTeX syntax:**
+   - Inline math: `$equation$`
+   - Display math: `$$equation$$`
+   - Example: `$$E = mc^2$$`
+
+### Publishing Changes
+
+1. **Commit and push your changes:**
+   ```bash
+   git add .
+   git commit -m "Add new blog post"
+   git push origin main
+   ```
+
+2. **GitHub Pages automatically deploys** to `https://sunandanadhikary.github.io`
+
+---
 
 ## Features
 
@@ -79,24 +156,9 @@ plugins:
 
 ```
 
-## MathJax
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
-
 ## License
 
 [public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
-
-
-# Welcome to Jekyll
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

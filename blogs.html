@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: default
 mathjax: true
-title: "blogs"
+title: "Blogs"
 permalink: /blogs/
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<article class="blog-page">
+  {% if site.show_excerpts %}
+    {% include home.html %}
+  {% else %}
+    {% include archive.html title="Posts" %}
+  {% endif %}
+</article>

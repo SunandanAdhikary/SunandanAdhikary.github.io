@@ -5,3 +5,9 @@
 Gemfile.lock
 _site
 *.gem
+
+# Deprecated/unnecessary files
+index-copy.html
+index-copy.md
+rewrite_index.py
+.travis.yml

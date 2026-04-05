@@ -54,6 +54,19 @@ blockquote
 blockquote, figure
   margin: 1em 0
 
+img.dp
+  border-radius: 12px
+  border: 3px solid $link-color
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1)
+  transition: box-shadow 0.3s ease, transform 0.3s ease
+  width: 150px
+  height: 180px
+  object-fit: cover
+
+img.dp:hover
+  box-shadow: 0 12px 24px rgba(212, 145, 118, 0.3)
+  transform: scale(1.02)
+
 img
   margin: .5em 0
 
@@ -65,13 +78,286 @@ img
   max-width: 100%
   height: auto
 
-table
+.social a svg
+  transition: transform 0.2s ease, fill 0.2s ease
+
+.social a:hover svg
+  transform: translateY(-3px) scale(1.1)
+  fill: $link-color
+
+/* Responsive Tab Container */
+.tab-container
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  border-bottom: 2px solid $link-color
+  margin: 2em 0 1em 0
+  position: relative
+  gap: 0
+
+.hamburger
+  display: none
+  background: none
+  border: none
+  color: inherit
+  font-size: 1.5em
+  cursor: pointer
+  padding: 10px
+  z-index: 1001
+  align-items: center
+  gap: 5px
+  transition: 0.3s
+
+.hamburger-icon
   display: inline-block
-  max-width: 100%
-  overflow-y: scroll
+  transition: transform 0.3s
+
+.hamburger.active .hamburger-icon
+  transform: rotate(90deg)
+
+.tabs-nav
+  display: flex
+  flex-direction: row
+  width: auto
+  gap: 0
+
+.tablink
+  background-color: inherit
+  color: inherit
+  border: none
+  outline: none
+  cursor: pointer
+  padding: 14px 20px
+  transition: 0.3s
+  font-size: 1em
+  font-family: inherit
+  font-weight: 600
+  text-align: center
+  white-space: nowrap
+
+.tablink:hover
+  background-color: reduce(4)
+
+.tablink.active
+  background-color: $link-color
+  color: #fff
+  border-bottom: 3px solid $link-color
+
+.tabcontent
+  display: none
+  animation: fadeEffect 0.5s
+
+@keyframes fadeEffect
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.tab-content-card
+  padding: 1.5em
+  background: reduce(3)
+  border-radius: 8px
+
+/* Info Row Layout - Side by side */
+.info-row
+  display: flex
+  flex-wrap: wrap
+  gap: 2em
+  margin-bottom: 2em
+  align-items: flex-start
+
+.info-label
+  flex: 0 0 180px
+
+.info-label h3
+  margin: 0
+  color: $link-color
+  font-size: 1.2em
+
+body.dark-mode .info-label h3
+  color: #d49176
+
+.info-content
+  flex: 1
+  min-width: 250px
+
+.edu-item
+  margin-bottom: 1.5em
+  padding-bottom: 1em
+  border-bottom: 1px solid reduce(10)
+
+.edu-item:last-child
+  border-bottom: none
+
+.profile-container
+  display: flex
+  flex-wrap: wrap
+  gap: 2em
+  align-items: flex-start
+  width: 100%
+
+.profile-image
+  flex: 0 0 auto
+
+.profile-text
+  flex: 1
+  min-width: 280px
+  text-align: left
+
+.profile-text h1
+  margin-top: 0
+  margin-bottom: 0.5em
+  text-align: left
+
+.profile-text p
+  margin: 0.3em 0
+  line-height: 1.4
+
+.social-icons
+  display: flex
+  gap: 15px
+  flex-wrap: wrap
+  font-size: 1.5em
+
+.social-icons a
+  transition: transform 0.2s ease
+
+.social-icons a:hover
+  transform: scale(1.2)
+
+.scholar-list ol
+  padding-left: 20px
+
+.scholar-list li
+  margin-bottom: 1em
+  line-height: 1.6
+
+/* Section titles in education/work - Dark green */
+.section-title
+  color: #1a3a38
+  font-weight: 700
+
+body.dark-mode .section-title
+  color: #7ee0aa
+
+/* Degree names in academics - lighter green in dark mode, darker peach in light */
+.degree-name
+  color: #1a3a38
+  font-weight: 700
+
+body.dark-mode .degree-name
+  color: #7ee0aa
+
+/* Degree links - darker peach color */
+.degree-link
+  color: #ba5736
+  text-decoration: none
+
+.degree-link:hover
+  text-decoration: underline
+
+body.dark-mode .degree-link
+  color: #e8a081
+
+/* Metadata badges (years, percentages) - Dark peach */
+.meta-badge
+  color: #ba5736
+  font-weight: 600
+
+body.dark-mode .meta-badge
+  color: #e8a081
+
+/* Responsive Design */
+@media (max-width: 768px)
+  .profile-container
+    flex-direction: column
+    gap: 1em
+  
+  .profile-image
+    width: 100%
+    text-align: center
+  
+  .info-row
+    flex-direction: column
+    gap: 0
+    margin-bottom: 1.5em
+  
+  .info-label
+    flex: 1 1 100%
+    border-bottom: 2px solid $link-color
+    padding-bottom: 0.5em
+  
+  .info-content
+    flex: 1 1 100%
+    padding-top: 1em
+  
+  .hamburger
+    display: flex
+  
+  .tabs-nav
+    flex-direction: column
+    max-height: 0
+    overflow: hidden
+    transition: max-height 0.3s
+    width: 100%
+  
+  .tabs-nav.open
+    max-height: 500px
+  
+  .tablink
+    border-bottom: 1px solid reduce(10)
+    flex: none
+  
+  .tablink.active
+    border-left: 3px solid $link-color
+    border-bottom: none
+    padding-left: 17px
+
+/* Default table styling */
+table
+  width: 100%
   border-spacing: 1px
   border-radius: 2px
-  box-shadow: 0 0 0 1px reduce(12) inset
+  border-collapse: collapse
+
+/* Remove internal borders from main layout tables */
+.basic-info table, div > table
+  box-shadow: none !important
+  border: none !important
+
+.basic-info td, .basic-info th, div > table > tbody > tr > td
+  box-shadow: none !important
+  border: none !important
+  background: transparent !important
+  padding: 1em
+
+td.topics
+  vertical-align: top
+  border-right: 2px solid $link-color !important
+  width: 25%
+
+@media (max-width: 600px)
+  table, tbody, tr, td, th
+    display: block
+    width: 100%
+  td.topics
+    border-right: none !important
+    border-bottom: 2px solid $link-color !important
+
+/* Provide "Card" look for rows in the content table */
+div > table > tbody > tr
+  background: rgba(0,0,0,0.02) !important
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05)
+  border-radius: 8px
+  display: flex
+  flex-wrap: wrap
+  margin-bottom: 1.5em
+  border: 1px solid rgba(0,0,0,0.05)
+
+body.dark-mode div > table > tbody > tr
+  background: rgba(255,255,255,0.02) !important
+  border-color: rgba(255,255,255,0.05)
 
 th, td
   padding: .5em 1em
